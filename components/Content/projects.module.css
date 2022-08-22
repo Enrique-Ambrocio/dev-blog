@@ -1,0 +1,16 @@
+.project_hero_content_container {
+    padding: .1rem;
+}
+
+.project_hero_content_project {
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.project_hero_content_project_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 11rem;
+}
