@@ -1,5 +1,4 @@
 import { gql } from "@apollo/client"
-import { resultKeyNameFromField } from "@apollo/client/utilities";
 import Head from "next/head";
 import Layout from "../../components/UI/layout";
 import { client } from "../../lib/apollo"
@@ -10,7 +9,14 @@ export default function BlogPage({ post }) {
         <Layout>
             <article>
                 <Head>
+                    <meta name="robots" content="index, follow" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta charset="UTF-8" />
                     <title>{post.title}</title>
+                    <meta name="description" content={`${post.title}`} />
+                    <meta name="title" content={` Blog - ${post.title}`} />
+                    <link rel="icon" href="/favicon.ico" />
+                    <meta name="twitter:card" content="summary_large_image" />
                 </Head>
                 <h1>{post.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: post.content }} />

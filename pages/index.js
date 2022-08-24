@@ -3,15 +3,19 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '../components/UI/layout'
 import styles from '../styles/utils.module.css'
-import { client } from '../lib/apollo'
-import { gql } from '@apollo/client'
 
 export default function Home({ posts }) {
 
   return (
     <Layout>
       <Head>
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
         <title>Home</title>
+        <meta name="title" content="Enrique Ambrocio | Twitter @EnriqueAmbroci0 " />
+        <meta name="description" content="Hello and welcome to the site! In here, I share the projects I'm currently working and some of things I've learned along the way of my developer journey." />
+        <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section>
@@ -23,11 +27,11 @@ export default function Home({ posts }) {
           alt="Enrique Ambrocio"
         />
         <p>
-          Hi! My name is Enrique and I'm a previous SEO specialist now turned developer. I'm currently
-          working with React and React Native.</p>
+          Hey! My name is Enrique and I'm a previous SEO specialist currently
+          working with React, Next and Node.js.</p>
         <p>
           Please feel free to browse around the site where you can find <Link href="/projects"><a>projects I've
-            been working on</a></Link> and my blog, where I share everthing I'm learning / problems I've come across (which I'm hoping might be helpful to others).
+            been working on</a></Link> and <Link href="/blog"><a>my blog</a></Link>, where I share everthing I'm learning / problems I've come across (which I'm hoping might be helpful to others).
         </p>
         <p>
           Feel free to reach out to me through email or LinkedIn (as I'm most active there) for anything at all. <br></br><br></br>Cheers!

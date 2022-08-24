@@ -1,6 +1,7 @@
 import { gql } from "@apollo/client";
 import Head from "next/head";
 import Link from "next/link";
+import { Fragment } from "react";
 import Layout from "../components/UI/layout";
 import { client } from "../lib/apollo";
 
@@ -10,7 +11,14 @@ export default function Blog({ posts }) {
     return (
         <Layout>
             <Head>
+                <meta name="robots" content="index, follow" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta charset="UTF-8" />
                 <title>Blog</title>
+                <meta name="title" content="Welcome to the blog!" />
+                <meta name="description" content="Featured articles" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <h1>Blog</h1>
             <ul>

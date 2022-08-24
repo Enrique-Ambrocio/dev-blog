@@ -2,6 +2,7 @@ import Link from "next/link";
 import DesktopNavBar from "./desktopnavbar";
 import MobileNavBar from "./mobilenavbar";
 import styles from './header.module.css'
+import { AiFillHome } from 'react-icons/ai'
 
 export default function Header() {
     return (
@@ -9,7 +10,7 @@ export default function Header() {
             <div>
                 <Link href="/">
                     <a>
-                        HI
+                        <AiFillHome />
                     </a>
                 </Link>
             </div>
