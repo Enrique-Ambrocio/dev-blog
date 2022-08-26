@@ -5,7 +5,8 @@
 .project_hero_content_project {
     padding: 1rem;
     margin: 1rem;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: .25em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
 .project_hero_content_project_button {

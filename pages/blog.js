@@ -1,7 +1,7 @@
 import { gql } from "@apollo/client";
+import moment from "moment";
 import Head from "next/head";
 import Link from "next/link";
-import { Fragment } from "react";
 import Layout from "../components/UI/layout";
 import { client } from "../lib/apollo";
 
@@ -24,10 +24,10 @@ export default function Blog({ posts }) {
             <ul>
                 {posts.map(({ title, slug, date }) =>
                     <li key={slug}>
+                        {/* <p>{moment(date).format("MMM Do YYYY")}</p> */}
                         <Link href={`/blog/${slug}`}>
                             <a>{title}</a>
                         </Link>
-                        <p>{date}</p>
                     </li>
                 )}
             </ul>
