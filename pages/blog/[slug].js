@@ -19,6 +19,7 @@ export default function BlogPage({ post }) {
                     <meta name="twitter:card" content="summary_large_image" />
                 </Head>
                 <h1>{post.title}</h1>
+
                 <div dangerouslySetInnerHTML={{ __html: post.content }} />
             </article>
         </Layout>
@@ -59,6 +60,7 @@ export async function getStaticProps({ params }) {
             query WordPressPostBySlug ($slug: String!) {
                 postBy(slug: $slug) {
                   title
+                  date
                   content
                 }
               }
