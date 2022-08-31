@@ -15,8 +15,8 @@ export default function Projects() {
                             <div className={styles.project_hero_content_project_content}>
                                 <h3>Bread Hunter</h3>
                                 <p>Application that helps users keep track of all jobs they've applied to, in addition to being able to add calendar events.
-                                    Developed using React \ ReactRouter \ JavaScript \ CSS Modules \ Custom hooks
-                                    for API calls (using Async / Await).</p>
+                                    Developed using <span>React</span> \ <span>ReactRouter</span> \ <span>JavaScript</span> \ <span>CSS Modules</span> \ <span>RESTful API</span>
+                                </p>
                             </div>
                         </li>
                         <li>
