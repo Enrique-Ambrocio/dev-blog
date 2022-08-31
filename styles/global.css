@@ -44,3 +44,8 @@ li {
 footer {
     margin-top: auto;
 }
+
+span {
+    font-weight: 500;
+    font-style: italic;
+}

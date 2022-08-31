@@ -2,6 +2,7 @@ import { gql } from "@apollo/client"
 import Head from "next/head";
 import Layout from "../../components/UI/layout";
 import { client } from "../../lib/apollo"
+import moment from "moment";
 
 
 export default function BlogPage({ post }) {
@@ -19,7 +20,7 @@ export default function BlogPage({ post }) {
                     <meta name="twitter:card" content="summary_large_image" />
                 </Head>
                 <h1>{post.title}</h1>
-
+                <span>{moment(post.date).format("MMM Do YYYY")}</span>
                 <div dangerouslySetInnerHTML={{ __html: post.content }} />
             </article>
         </Layout>

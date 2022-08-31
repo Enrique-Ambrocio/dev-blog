@@ -17,7 +17,7 @@ export default function projects() {
                 <meta name="twitter:card" content="summary_large_image" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1 >Projects</h1>
+            <h2>Projects</h2>
             <Projects />
         </Layout>
     )

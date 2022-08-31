@@ -20,11 +20,11 @@ export default function Blog({ posts }) {
                 <meta name="twitter:card" content="summary_large_image" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1>Blog</h1>
+            <h2>Blog</h2>
             <ul>
                 {posts.map(({ title, slug, date }) =>
                     <li key={slug}>
-                        {/* <p>{moment(date).format("MMM Do YYYY")}</p> */}
+                        <span>- </span>
                         <Link href={`/blog/${slug}`}>
                             <a>{title}</a>
                         </Link>
