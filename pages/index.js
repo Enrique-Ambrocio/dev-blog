@@ -28,13 +28,13 @@ export default function Home({ posts }) {
         />
         <p>
           Hey! My name is Enrique and I'm a previous SEO specialist currently
-          working with React, Next and Node.js.</p>
+          working with React, Next and Node.jsv.</p>
         <p>
           Please feel free to browse around the site where you can find <Link href="/projects"><a>projects I've
             been working on</a></Link> and <Link href="/blog"><a>my blog</a></Link>, where I share everthing I'm learning / problems I've come across (which I'm hoping might be helpful to others).
         </p>
         <p>
-          Feel free to reach out to me through email or LinkedIn (as I'm most active there) for anything at all. <br></br><br></br>Cheers!
+          Feel free to reach out to me through email or LinkedIn (as I'm most active there) for anything at all. <br></br><br></br>Thanks!
         </p>
       </section>
     </Layout>
