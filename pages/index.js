@@ -34,7 +34,7 @@ export default function Home({ posts }) {
             been working on</a></Link> and <Link href="/blog"><a>my blog</a></Link>, where I share everthing I'm learning / problems I've come across (which I'm hoping might be helpful to others).
         </p>
         <p>
-          Feel free to reach out to me through email or LinkedIn (as I'm most active there) for anything at all. <br></br><br></br>Thanks!
+          Feel free to reach out to me through email or LinkedIn (as I'm most active there) for anything at all. <br></br><br></br>Thanks!!
         </p>
       </section>
     </Layout>
