@@ -28,7 +28,7 @@
     color: rgb(98, 98, 98);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
     .footer {
         flex-direction: column-reverse;
     }
