@@ -28,7 +28,7 @@ export default function Home({ posts }) {
         />
         <p>
           Hey! My name is Enrique and I'm a previous SEO specialist currently
-          working with React, Next and Node.js.</p>
+          working with the MERN stack and Next.js</p>
         <p>
           Please feel free to browse around the site where you can find <Link href="/projects"><a>projects I've
             been working on</a></Link> and <Link href="/blog"><a>my blog</a></Link>, where I share everthing I'm learning / problems I've come across (which I'm hoping might be helpful to others).
