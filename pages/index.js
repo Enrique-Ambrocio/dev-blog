@@ -11,7 +11,7 @@ export default function Home({ posts }) {
       <Head>
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <title>Home</title>
         <meta name="title" content="Enrique Ambrocio | Twitter @EnriqueAmbroci0 " />
         <meta name="description" content="Hello and welcome to the site! In here, I share the projects I'm currently working and some of things I've learned along the way of my developer journey." />
