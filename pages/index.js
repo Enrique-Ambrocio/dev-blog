@@ -27,7 +27,7 @@ export default function Home({ posts }) {
           alt="Enrique Ambrocio"
         />
         <p>
-          Hey! My name is Enrique and I'm a previous SEO specialist currently
+          Hi there! My name is Enrique and I'm a previous SEO specialist currently
           working with the MERN stack and Next.js.</p>
         <p>
           Please feel free to browse around the site where you can find <Link href="/projects"><a>projects I've
